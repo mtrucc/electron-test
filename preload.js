@@ -10,3 +10,7 @@ window.addEventListener('DOMContentLoaded', () => {
     replaceText(`${type}-version`, process.versions[type])
   }
 })
+
+global.gogogo = 123
+
+window.test = global

@@ -5,14 +5,14 @@
 // selectively enable features needed in the rendering
 // process.
 
-const inputElement = document.getElementById("input");
-inputElement.addEventListener("change", handleFiles, false);
-function handleFiles() {
-  const fileList = this.files; /* now you can work with the file list */
-  console.log('fileList :>> ', fileList);
-}
+// const inputElement = document.getElementById("input");
+// inputElement.addEventListener("change", handleFiles, false);
+// function handleFiles() {
+//   const fileList = this.files; /* now you can work with the file list */
+//   console.log('fileList :>> ', fileList);
+// }
 
-const webview = document.querySelector('webview')
-webview.addEventListener('dom-ready', () => {
-  webview.openDevTools()
-})
+// const webview = document.querySelector('webview')
+// webview.addEventListener('dom-ready', () => {
+//   webview.openDevTools()
+// })
